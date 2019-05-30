@@ -1,0 +1,39 @@
+    1  history
+    2  ls al
+    3  ls -al
+    4  vi .bash_profile
+    5* 
+    6  ls -al
+    7  vi .bash_profile
+    8  java -version
+    9  sudo update-alternative --install "/usr/bin/mvn" "mvn" "/opt/apache-maven-3.6.1/bin/mvn" 0
+   10  update-alternative --install "/usr/bin/mvn" "mvn" "/opt/apache-maven-3.6.1/bin/mvn" 0
+   11  sudo update-alternatives --install "/usr/bin/mvn" "mvn" "/opt/apache-maven-3.6.1/bin/mvn" 0
+   12  sudo update-alternatives --set mvn /opt/apache-maven-3.6.1/bin/mvn
+   13  java -version
+   14  echo $JAVA_HOME
+   15  update-alternatives --config java
+   16  export JAVA_HOME =/usr/lib/jvm/jre-1.8.0-openjdk.x86_64/
+   17  mvn --version
+   18  ls -al
+   19  history
+   20  history>history.txt
+   21  ls -al
+   22  touch stepup.sh
+   23  vi stepup.sh
+   24  yum install git -y
+   25  mkdir git
+   26  ls -al
+   27  cd git
+   28  git init
+   29  git remote add "https://github.com/omprakashreddy475/demo.git"
+   30  git pull origin master
+   31  git remote add origin "https://github.com/omprakashreddy475/demo.git"
+   32  git pull origin master
+   33  touch setupmaven.txt
+   34  vi setupmaven.txt
+   35  git add setupmaven.txt
+   36  git status
+   37  git commit -m "setupmaven.txt"
+   38  git push origin master
+   39  history>history.txt
